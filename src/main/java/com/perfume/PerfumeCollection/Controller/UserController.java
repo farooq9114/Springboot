@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.perfume.PerfumeCollection.Model.User;
 import com.perfume.PerfumeCollection.Service.UserService;
 
-@CrossOrigin(origins = "")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/user")
 public class UserController {
